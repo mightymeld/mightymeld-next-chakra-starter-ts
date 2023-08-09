@@ -1,38 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+# MightyMeld Next.js Chakra UI Starter
+
+A boilerplate project for quickly setting up an application using Next.js and Chakra UI and MightyMeld.
+
+## Features
+
+- **Next.js**
+- **Chakra UI**
+- **MightyMeld**
 
 ## Getting Started
 
-First, run the development server:
+Follow these steps to set up and start using the boilerplate:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+1. **Clone the Repository**: Start by cloning this repository to your local machine:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+   ```bash
+   git clone https://github.com/mightymeld/mightymeld-next-chakra-starter.git
+   ```
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+2. **Install Dependencies**: install the dependencies:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+   ```bash
+   cd mightymeld-next-chakra-starter
+   yarn install
+   ```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+3. **Run the Development Server**: Launch the development server:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+   ```bash
+   yarn dev
+   ```
 
-## Learn More
+4. **Start Building**: Open your browser and visit `http://localhost:3000` to see your application in action. Begin customizing and building upon the boilerplate to create your own masterpiece.
 
-To learn more about Next.js, take a look at the following resources:
+## Customization
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Here are a few areas you might want to customize:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **Styling**: Utilize Chakra UI's theming and styling capabilities to match your project's design.
+- **Components**: Use Chakra UI components to quickly build UI elements.
+- **MightyMeld Integration**: Explore MightyMeld's tools and prefabs to further enhance your development process.
