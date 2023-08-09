@@ -5,9 +5,9 @@ A boilerplate project for quickly setting up an application using Next.js and Ch
 
 ## Features
 
-- **Next.js**
-- **Chakra UI**
-- **MightyMeld**
+- **Next.js**: (https://nextjs.org/docs/)
+- **Chakra UI**: (https://chakra-ui.com/)
+- **MightyMeld**: (https://www.mightymeld.com/)
 
 ## Getting Started
 
