@@ -25,6 +25,7 @@
     "typescript": "5.1.6"
   },
   "devDependencies": {
-    "@mightymeld/runtime": "latest"
+    "@mightymeld/runtime": "latest",
+    "prettier": "3.0.3"
   }
 }

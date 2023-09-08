@@ -1,4 +1,3 @@
-
 # MightyMeld Next.js Chakra UI Starter
 
 A boilerplate project for quickly setting up an application using Next.js and Chakra UI and MightyMeld.
@@ -9,14 +8,12 @@ Follow these steps to set up and start using the boilerplate:
 
 1. **Clone the Repository**: 1. Clone this template using [degit](https://github.com/Rich-Harris/degit), change "mightymeld-next-chakra-project" with your own project name <br />
 
-
    ```bash
     npx degit mightymeld/ts-mightymeld-next-chakra-starter "mightymeld-next-chakra-project"
    ```
 
-
 2. **Install Dependencies**: install the dependencies:
-  using yarn 
+   using yarn
 
    ```bash
     cd mightymeld-next-chakra-project
@@ -44,7 +41,7 @@ Follow these steps to set up and start using the boilerplate:
 
    ```bash
     npx mightymeld
-   ``` 
+   ```
 
 6. Once the app has loaded, visit [studio.mightymeld.app](https://studio.mightymeld.app/) to begin editing your app.
 
@@ -56,8 +53,9 @@ Follow these steps to set up and start using the boilerplate:
 
 ```bash
     yarn dev
-   ``` 
-   The app should appear in a browser tab at localhost:3000.
+```
+
+The app should appear in a browser tab at localhost:3000.
 
 ## Features
 

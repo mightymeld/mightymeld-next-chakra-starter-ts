@@ -1,6 +1,6 @@
-import Head from 'next/head'
+import Head from "next/head";
 
-import { Box, Center, Heading } from '@chakra-ui/react'
+import { Box, Center, Heading } from "@chakra-ui/react";
 
 export default function Home() {
   return (
@@ -11,13 +11,13 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main >
-        <Box position='relative' h='100px'>
-          <Center p='20'>
+      <main>
+        <Box position="relative" h="100px">
+          <Center p="20">
             <Heading> Mightymeld-Next-Chakra Starter</Heading>
           </Center>
         </Box>
       </main>
     </>
-  )
+  );
 }
