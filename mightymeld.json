@@ -1,7 +1,7 @@
 {
   "project_name": "mightymeld-next-chakra",
   "web_server_port": 3000,
-  "run": "yarn dev",
+  "run": "npm run dev",
   "main_branch": "main",
   "include": ["src", ".prettierrc.json"],
   "meta_dir": "src/.mightymeld",
