@@ -12,61 +12,19 @@ Follow these steps to set up and start using the boilerplate:
     npx degit mightymeld/ts-mightymeld-next-chakra-starter "mightymeld-next-chakra-project"
    ```
 
-2. **Install Dependencies**: install the dependencies:
-   using yarn
+2. Run `npm install` to install depenendencies.
 
-   ```bash
-    cd mightymeld-next-chakra-project
+3. Create an `.env` file with your MightyMeld secret and instance ID (available on the [MightyMeld Portal](https://mightymeld.app)).
 
-    yarn install
-   ```
+4. Run `npx mightymeld` to launch MightyMeld studio in a browser tab.
 
-   or using npm
 
-   ```bash
-    cd mightymeld-next-chakra-project
+## Running the app without MightyMeld
 
-    npm install
-   ```
+1. Type `npm install` to install dependencies.
 
-3. **Run the Development Server**: Launch the development server:
+2. Run `npm run dev`, the app should then appear in a browser tab on [localhost:3000](localhost:3000)
 
-   ```bash
-   yarn dev
-   ```
+## Using Another Package Manager
 
-4. Copy `.env.template` to `.env` and add your MightyMeld secret and instance ID. If you don’t have an instance ID, [sign up for MightyMeld](https://www.mightymeld.com).
-
-5. Launch the app using:
-
-   ```bash
-    npx mightymeld
-   ```
-
-6. Once the app has loaded, visit [studio.mightymeld.app](https://studio.mightymeld.app/) to begin editing your app.
-
-7. Or you can click "Use this template" button above.
-
-### Running the app without MightyMeld
-
-1. Run the following command to start the app:
-
-```bash
-    yarn dev
-```
-
-The app should appear in a browser tab at localhost:3000.
-
-## Features
-
-- **Next.js**: (https://nextjs.org/docs/)
-- **Chakra UI**: (https://chakra-ui.com/)
-- **MightyMeld**: (https://www.mightymeld.com/)
-
-## Customization
-
-Here are a few areas you might want to customize:
-
-- **Styling**: Utilize Chakra UI's theming and styling capabilities to match your project's design.
-- **Components**: Use Chakra UI components to quickly build UI elements.
-- **MightyMeld Integration**: Explore MightyMeld's tools and prefabs to further enhance your development process.
+If you would like to use an alternative package manager like yarn or pnpm, make sure to also update the run command in your mightymeld.json file
