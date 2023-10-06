@@ -28,31 +28,26 @@ Follow these steps to set up and start using the boilerplate:
 
     npm install
    ```
+(If you're using yarn, you can change the run command in the mightymeld.json file to `yarn dev`.)
+3. Copy `.env.template` to `.env` and add your MightyMeld secret and instance ID. If you don’t have an instance ID, [sign up for MightyMeld](https://www.mightymeld.com).
 
-3. **Run the Development Server**: Launch the development server:
-
-   ```bash
-   yarn dev
-   ```
-
-4. Copy `.env.template` to `.env` and add your MightyMeld secret and instance ID. If you don’t have an instance ID, [sign up for MightyMeld](https://www.mightymeld.com).
-
-5. Launch the app using:
+4. Launch the app using:
 
    ```bash
     npx mightymeld
    ```
 
-6. Once the app has loaded, visit [studio.mightymeld.app](https://studio.mightymeld.app/) to begin editing your app.
+5. Once the app has loaded, visit [studio.mightymeld.app](https://studio.mightymeld.app/) to begin editing your app.
 
-7. Or you can click "Use this template" button above.
+
+Or you can click "Use this template" button above to clone.
 
 ### Running the app without MightyMeld
 
 1. Run the following command to start the app:
 
 ```bash
-    yarn dev
+    npm run dev
 ```
 
 The app should appear in a browser tab at localhost:3000.
