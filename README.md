@@ -14,7 +14,7 @@ Follow these steps to set up and start using the boilerplate:
 
 2. Run `npm install` to install depenendencies.
 
-3. Create an `.env` file with your MightyMeld secret and instance ID (available on the [MightyMeld Portal](https://mightymeld.app)).
+3. Download a mightymeld.secrets file from the [MightyMeld Portal](https://mightymeld.app/instances) and place it in your project root 
 
 4. Run `npx mightymeld` to launch MightyMeld studio in a browser tab.
 
