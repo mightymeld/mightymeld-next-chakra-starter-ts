@@ -1,7 +1,11 @@
 {
-  "web_server_url": 3000,
   "run": "npm run dev",
-  "include": ["src", ".prettierrc.json"],
+  "include": [
+    "src",  
+    ".prettierrc.json"
+  ],
+  "web_server_url": "http://localhost:3000",
+  "prefab_dir": "src/prefab",
   "run_prettier": true,
-  "prefab_dir": "src/prefab"
+  "editor": "url:vscode://file/%FILENAME:%LINE:%COLUMN"
 }
